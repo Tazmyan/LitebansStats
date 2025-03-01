@@ -4,8 +4,6 @@
 
 LitebansStats is a powerful Minecraft plugin that provides detailed statistics about your server's administrative actions. Track and view various moderation activities performed by staff members, including bans, kicks, warns, mutes, and their respective reversals.
 
-This plugin requires [LiteBans](https://www.litebans.org/) to be installed and running on your server.
-
 ## ✨ Features
 
 - 📊 Track multiple types of administrative actions:
@@ -21,7 +19,7 @@ This plugin requires [LiteBans](https://www.litebans.org/) to be installed and r
 ## 📋 Requirements
 
 - Minecraft Server (1.20+)
-- [LiteBans](https://www.litebans.org/) plugin (required)
+- [LiteBans](https://www.spigotmc.org/resources/litebans.3715/) plugin (required)
 - Java 21 or higher
 
 ## 💻 Commands
