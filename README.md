@@ -60,7 +60,7 @@ Contributions are welcome through pull requests and are subject to these conditi
 3. Code contributions must maintain consistent code style and quality
 4. All commits must be signed and include clear descriptions
 
-Please read our `CONTRIBUTING.md` and [CLA.md](CLA.md) files before submitting any contributions.
+Please read our [CONTRIBUTING.md](CONTRIBUTING.md) and [CLA.md](CLA.md) files before submitting any contributions.
 
 ---
 
