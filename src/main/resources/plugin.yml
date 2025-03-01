@@ -1,0 +1,11 @@
+name: LitebansStats
+version: '1.0'
+author: Tazmyan
+main: taz.dev.LitebansStats
+api-version: '1.20'
+depend: [LiteBans]
+commands:
+  adminstats:
+    description: View admin statistics for a player
+    usage: /<command> <player>
+    permission: litebansstats.view

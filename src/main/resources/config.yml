@@ -1,0 +1,15 @@
+# Stats to track and display
+stats:
+  bans: true
+  kicks: true
+  warns: true
+  mutes: true
+  unwarns: true
+  unbans: true
+
+messages:
+  no-permission: "&cYou don't have permission to use this command!"
+  player-not-found: "&cPlayer not found!"
+  stats-header: "&6===== &f{player}'s Admin Stats &6====="
+  stats-format: "&7{stat}: &f{count}"
+  stats-footer: "&6=========================="
