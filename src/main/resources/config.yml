@@ -1,3 +1,8 @@
+# This helps us track plugin usage and motivates further development
+# Set to false if you want to opt out of anonymous statistics
+settings:
+  enable-bstats: true
+
 # Stats to track and display
 stats:
   bans: true

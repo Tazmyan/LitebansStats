@@ -1,11 +1,15 @@
 package taz.dev;
 
 import litebans.api.Database;
+
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import org.bstats.bukkit.Metrics;
+import org.bstats.charts.SingleLineChart;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -21,6 +25,13 @@ public final class LitebansStats extends JavaPlugin {
     public void onEnable() {
         saveDefaultConfig();
         config = getConfig();
+
+        if (config.getBoolean("settings.enable-bstats", true)) {
+            Metrics metrics = new Metrics(this, 24969);
+            metrics.addCustomChart(new SingleLineChart("players", () ->
+                    getServer().getOnlinePlayers().size()
+            ));
+        }
     }
 
     @Override
